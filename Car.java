@@ -17,6 +17,7 @@ public class Car extends Actor
     public void act() 
     {
         move(speed);
+        
         if(isAtEdge())
         {
             setLocation( 0, getY());
@@ -25,7 +26,8 @@ public class Car extends Actor
     
     public Car (int setSpeed)
     {
-        speed = 5;
+        speed = 6;
+        speed = 7;
         
     }
 }

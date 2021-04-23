@@ -16,7 +16,8 @@ public class Truck extends Actor
      */
     public void act() 
     {
-        move(-8);
+        move(-12);
+        
         if(isAtEdge())
         {
             setLocation( 800, getY());
