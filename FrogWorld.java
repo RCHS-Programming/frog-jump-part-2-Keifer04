@@ -61,11 +61,11 @@ public class FrogWorld extends World
     public void addCars()
     {
         //first row of Cars, all y = 450, speed of 5
-        addObject( new Car (5), 30, 450);
-        addObject( new Car (5), 500, 450);
+        addObject( new Car (8), 10, 450);
+        addObject( new Car (5), 400, 450);
         //second row of Cars, all y = 390, speed of 5
-        addObject( new Car (5), 30, 390);
-        addObject( new Car (5), 700, 390);
+        addObject( new Car (5), 350, 390);
+        addObject( new Car (25), 700, 390);
         //third row of Cars, all y = 330, speed of 7
         addObject( new Car (5), 30, 330);
         addObject( new Car (5), 600, 330);
@@ -78,11 +78,11 @@ public class FrogWorld extends World
         addObject( new Truck (5), 700, 210);
         addObject( new Truck (5), 300, 210);
         //second row of Trucks, all y = 150, speed of -8
-        addObject( new Truck (5), 30, 150); 
-        addObject( new Truck (5), 900, 150); 
+        addObject( new Truck (5), 550, 150); 
+        addObject( new Truck (5), 250, 150); 
 
         //third row of Trucks, all y = 90, speed of 10
-        addObject( new Truck (5), 30, 90);
+        addObject( new Truck (5), 100, 90);
         addObject( new Truck (5), 500, 90);
         
     }
