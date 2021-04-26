@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Fri Apr 23 11:35:22 EDT 2021
+#Mon Apr 26 11:39:42 EDT 2021
 target4.type=ClassTarget
 dependency3.from=FrogWorld
 target3.height=50
@@ -84,6 +84,7 @@ readme.height=58
 target2.name=Frog
 readme.name=@README
 package.numDependencies=7
+simulation.speed=51
 class.Ground.superclass=greenfoot.Actor
 target3.type=ClassTarget
 class.FrogWorld.image=granite-light.jpg
@@ -96,6 +97,6 @@ mainWindow.height=781
 target2.showInterface=false
 target3.name=Ground
 target6.showInterface=false
-project.charset=UTF-8
 target3.width=80
+project.charset=UTF-8
 target4.showInterface=false

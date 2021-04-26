@@ -21,6 +21,7 @@ public class FrogWorld extends World
         addCars();
         addTrucks();
         addObject( new Frog(), 370, 510);
+        
     }
     
     public void makeGround()
